@@ -68,10 +68,14 @@
 	// Main.
 		var	delay = 325,
 			locked = false;
-			//my change
-	 		const myName = "Hryhorii";
-			document.getElementById('myname').textContent = myName;
-      		// Methods.
+
+	//My changes.
+		const myName = process.env.MY_NAME || "Default Name";
+		document.getElementById('myname').textContent = myName;
+
+		
+
+	      		// Methods.
 			$main._show = function(id, initial) {
 
 				var $article = $main_articles.filter('#' + id);
