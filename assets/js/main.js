@@ -68,8 +68,7 @@
 	// Main.
 		var	delay = 325,
 			locked = false;
-         const myName = "Григорій";
-		// Methods.
+      		// Methods.
 			$main._show = function(id, initial) {
 
 				var $article = $main_articles.filter('#' + id);
