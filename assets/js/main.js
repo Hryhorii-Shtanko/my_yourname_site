@@ -68,7 +68,9 @@
 	// Main.
 		var	delay = 325,
 			locked = false;
-	 	const myName = "Hryhorii";
+			//my change
+	 		const myName = "Hryhorii";
+			document.getElementById('myname').textContent = myName;
       		// Methods.
 			$main._show = function(id, initial) {
 
