@@ -68,6 +68,7 @@
 	// Main.
 		var	delay = 325,
 			locked = false;
+	 	const myName = "Hryhorii";
       		// Methods.
 			$main._show = function(id, initial) {
 
